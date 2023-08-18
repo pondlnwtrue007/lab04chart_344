@@ -1,0 +1,34 @@
+/* เพิ่มสไตล์ตามที่คุณต้องการ */
+body {
+    background-color: black; /* สีพื้นหลังเป็นสีดำ */
+    color: #FFA500; /* สีตัวอักษรเป็นสีส้มอ่อน */
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile img {
+    max-height: 80vh;
+    width: auto;
+    margin-right: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+.profile ul {
+    list-style: none;
+    padding: 0;
+}
+
+.profile li {
+    font-size: 18px;
+    line-break: anywhere;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    max-height: 80vh;
+    overflow: auto;
+}
